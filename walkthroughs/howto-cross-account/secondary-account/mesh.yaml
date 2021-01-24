@@ -23,5 +23,5 @@ Resources:
             Protocol: http
         ServiceDiscovery:
           AWSCloudMap:
-            NamespaceName: !Sub "secondar.${ProjectName}.local"
+            NamespaceName: !Sub "secondary.${ProjectName}.local"
             ServiceName: "backend"
